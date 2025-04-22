@@ -5,4 +5,6 @@
     extend: {},
   },
   plugins: [],
+  important: true
+
 }

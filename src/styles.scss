@@ -7,7 +7,7 @@
 // 1) Include Material’s core styles (ripples, variables, etc)
 @include mat.core();   // ← note the ()
 /* ===== test-loading: you should see a red border around the viewport ===== */
-body { border: 5px solid red !important; }
+body { border: 5px solid rgb(255, 0, 0) !important; }
 
 
 // 2) Scoped override for rounding only inside .custom-theme
@@ -25,4 +25,13 @@ body { border: 5px solid red !important; }
 // 3) Centered “container” utility override
 .container {
   @apply mx-auto max-w-screen-2xl px-4;  // ← note the ;
+}
+
+.text-primary {
+  color: #2563EB
+  ;  // ← note the ;
+}
+
+button.match-input-height{
+  height: var(--mat-form-field-container-height);
 }
