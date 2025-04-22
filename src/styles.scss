@@ -32,6 +32,29 @@ body { border: 5px solid rgb(255, 0, 0) !important; }
   ;  // ← note the ;
 }
 
-button.match-input-height{
+// button.match-input-height{
+//   height: var(--mat-form-field-container-height);
+// }
+:root {
+  --mat-form-field-container-height: 56px; // Material’s default height
+}
+
+button.match-input-height {
   height: var(--mat-form-field-container-height);
+}
+
+.mdc-notched-outline__notch{
+  border-right-style: none !important;
+}
+
+.mat-mdc-snack-bar-container.snack-error {
+  --mdc-snackbar-container-color: #f00;
+  --mdc-snack-bar-button-color: #fff;
+  --mdc-snackbar-suporting-text-color: #fff;
+}
+
+.mat-mdc-snack-bar-container.snack-succes {
+  --mdc-snackbar-container-color: #0f0;
+  --mdc-snack-bar-button-color: #fff;
+  --mdc-snackbar-suporting-text-color: #fff;
 }

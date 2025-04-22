@@ -22,7 +22,6 @@ import { FormsModule } from '@angular/forms';
   selector: 'app-shop',
   standalone: true,
   imports: [
-    MatCard,
     ProductItemComponent,
     MatButton,
     MatIcon,
