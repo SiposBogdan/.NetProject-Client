@@ -6,8 +6,6 @@
 
 // 1) Include Material’s core styles (ripples, variables, etc)
 @include mat.core();   // ← note the ()
-/* ===== test-loading: you should see a red border around the viewport ===== */
-body { border: 5px solid rgb(255, 0, 0) !important; }
 
 
 // 2) Scoped override for rounding only inside .custom-theme
